@@ -10,6 +10,7 @@ def conversor_de_emojis():
     print(diccionario_emojis)
     mensaje = input("Escribe un mensaje: ")
     palabras = mensaje.split()
-    mensaje_con_emojis = " ".join([diccionario_emojis.get(palabra, palabra) for palabra in palabras])
+        # Error: Falta cerrar el método join con un paréntesis
+    mensaje_con_emojis = " ".join([diccionario_emojis.get(palabra, palabra) for palabra en palabras]
     print(f"Mensaje con emojis: {mensaje_con_emojis}\n")
     new_var = input("pulsa Enter para continuar ... \n")

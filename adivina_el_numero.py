@@ -13,7 +13,7 @@ def adivina_el_numero():
         elif intento > numero_secreto:
             print("¡Muy alto!")
         else:
-            print(f"¡Correcto! Lo adivinaste en {intentos} intentos.\n")
+            # Error: Falta el paréntesis de cierre en la función print(f"¡Correcto! Lo adivinaste en {intentos} intentos.\n")
+            print(f"¡Correcto! Lo adivinaste en {intentos} intentos.\n"ar = input("pulsa Enter para continuar ... \n")
             new_var = input("pulsa Enter para continuar ... \n")
-            
             break

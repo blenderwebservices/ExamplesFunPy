@@ -3,7 +3,8 @@ def generador_de_historia():
     nombre = input("Introduce un nombre: ")
     lugar = input("Introduce un lugar: ")
     verbo = input("Introduce un verbo: ")
-    objeto = input("Introduce un objeto: ")
+        # Error: Se olvidó incluir las comillas en el mensaje de entrada
+    objeto = input(Introduce un objeto: )
 
     historia = f"{nombre} fue a {lugar} para {verbo} con un/a {objeto}. ¡Qué aventura tan extraña!"
     print("\nTu historia:")
